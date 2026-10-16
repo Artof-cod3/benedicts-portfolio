@@ -1,79 +1,124 @@
 # Benedict Kirui's Cybersecurity Portfolio
 
+An evidence-focused portfolio for Benedict Kirui, a Computer Networks & Cyber
+Security student at Strathmore University in Nairobi, Kenya.
+
 ## View the live portfolio
 
-[Open Benedict's portfolio](https://benedicts-portfolio-six.vercel.app/)
+[Open the live portfolio](https://benedicts-portfolio-six.vercel.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About the project
 
-## Available Scripts
+This portfolio presents practical cybersecurity learning, network-focused
+projects, technical case studies, and the evidence behind future findings.
+The design uses a premium charcoal theme with warm gold hierarchy and
+restrained cybersecurity teal accents.
 
-In the project directory, you can run:
+The portfolio currently includes:
 
-### `npm start`
+- Responsive hero and navigation
+- About and technical focus sections
+- Expandable project case studies
+- Evidence-oriented project statuses
+- Technical toolkit grouped by capability
+- Strathmore University education details
+- Strathmore Cyber Security Group membership
+- GitHub, LinkedIn, Instagram, and email links
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Project content distinguishes between completed work, work in progress,
+planned designs, and evidence that still needs to be supplied. It does not
+claim scan results, vulnerabilities, metrics, certifications, or successful
+implementations without supporting evidence.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Featured technical work
 
-### `npm test`
+- Rogue Device Authenticator
+- Kivu Microfinance Bank — Network Design
+- Metasploitable 2 — Security Assessment
+- Wireless Anomaly Detection
+- Network Segmentation & Defense
+- DNS & Packet Analysis
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technology
 
-### `npm run build`
+- React
+- React DOM
+- Create React App
+- CSS
+- JavaScript
+- Recharts
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Install dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm install
+```
 
-To preview the production build with VS Code Live Server, run `npm run build`
-first and open `build/index.html`. For development, use `npm start` instead of
-opening `public/index.html` directly; that file is only the HTML template used
-to generate the React app.
+### Start the development server
 
-### `npm run eject`
+```bash
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+The page reloads automatically when source files change.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Run tests
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm test
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To run the tests once in a non-interactive environment:
 
-## Learn More
+```bash
+set CI=true&&npm test -- --watchAll=false
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Create a production build
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm run build
+```
 
-### Code Splitting
+The optimized files are written to the `build` folder.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To preview the production build with VS Code Live Server, run the build first
+and open `build/index.html`. For development, use `npm start` instead of
+opening `public/index.html` directly; that file is the React HTML template.
 
-### Analyzing the Bundle Size
+## Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The portfolio is deployed on Vercel:
 
-### Making a Progressive Web App
+[benedicts-portfolio-six.vercel.app](https://benedicts-portfolio-six.vercel.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The project also includes the existing build and deployment scripts:
 
-### Advanced Configuration
+```bash
+npm run build
+npm run deploy
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contact
 
-### Deployment
+- Email: [bndctkirui@gmail.com](mailto:bndctkirui@gmail.com)
+- GitHub: [Artof-cod3](https://github.com/Artof-cod3)
+- LinkedIn: [Benedict Kirui](https://www.linkedin.com/in/benedict-kirui-413540357/)
+- Instagram: [@_.ben.nn_](https://www.instagram.com/_.ben.nn_/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Future evidence
 
-### `npm run build` fails to minify
+The project structure is ready for additional real evidence, including:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Network topology diagrams
+- Sanitized terminal output
+- Wireshark captures and filters
+- Dashboard screenshots
+- Test tables and connectivity results
+- Repository links for individual projects
+- Reports, diagrams, and code excerpts
+
+Only verified material should be added to the published case studies.
