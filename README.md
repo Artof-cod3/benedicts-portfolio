@@ -48,47 +48,6 @@ implementations without supporting evidence.
 - JavaScript
 - Recharts
 
-## Getting started
-
-### Install dependencies
-
-```bash
-npm install
-```
-
-### Start the development server
-
-```bash
-npm start
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-The page reloads automatically when source files change.
-
-### Run tests
-
-```bash
-npm test
-```
-
-To run the tests once in a non-interactive environment:
-
-```bash
-set CI=true&&npm test -- --watchAll=false
-```
-
-### Create a production build
-
-```bash
-npm run build
-```
-
-The optimized files are written to the `build` folder.
-
-To preview the production build with VS Code Live Server, run the build first
-and open `build/index.html`. For development, use `npm start` instead of
-opening `public/index.html` directly; that file is the React HTML template.
-
 ## Deployment
 
 The portfolio is deployed on Vercel:
