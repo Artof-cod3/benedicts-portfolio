@@ -29,6 +29,11 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+To preview the production build with VS Code Live Server, run `npm run build`
+first and open `build/index.html`. For development, use `npm start` instead of
+opening `public/index.html` directly; that file is only the HTML template used
+to generate the React app.
+
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
